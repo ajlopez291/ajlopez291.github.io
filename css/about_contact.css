@@ -1,0 +1,71 @@
+.major_content {
+	min-height: 70vh;
+	margin-top: 3em;
+	
+}
+
+.major_content p, li{
+	font-family: "GillSansNova";
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+	font-weight: 400;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto .5em;
+}
+
+.major_content li {
+	list-style-type: square;
+	list-style-position: inside;
+	color: #00bcda;
+	padding-left: 1.5em;
+}
+
+.major_content li span {
+	color: #3b404f !important;
+}
+
+#boldintro {
+	font-family: "GillSansNova";
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+#newprojects {
+	width: 50%;
+	margin:1em 35% .5em 15%;
+}
+
+.major_content a {
+	color: #3b404f;
+}
+
+.major_content a:hover{
+	color: #00bcda;
+	}
+
+td {
+	font-family: "GillSansNova";
+	font-style: normal;
+	font-weight: normal;
+	font-size: .9em;
+	line-height: 1.4em;
+	color: #3b404f;
+	padding: .5em 0.5em .5em 0em;
+}
+
+table { 
+	margin:1em 35% .5em 15%;
+}
+
+.bold {
+	font-family: "GillSansNova";
+	font-weight: bold;
+	font-style: normal;
+}
+
+

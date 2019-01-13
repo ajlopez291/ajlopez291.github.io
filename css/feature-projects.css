@@ -1,0 +1,163 @@
+body {
+	background-color: #f6f6f6;
+	font-size: 16px
+}
+.feature-project {
+	margin-top: 4em
+}
+
+.feature-project h1 {
+	clear: both;
+	font-family: "GillSansNova";
+	font-size: 1.8em;
+	font-weight: bold;
+	font-style: normal;
+	width: 70%;
+	line-height: 1.2em;
+	color: #00bcda;
+	margin: 0 auto;
+}
+
+.feature-project h3 {
+	clear: both;
+	font-family: "GillSansNova";
+	font-size: 1.05em;
+	font-weight: normal;
+	font-style: normal;
+	width: 70%;
+	line-height: 1.2em;
+	color: #3b404f;
+	margin: 0.1em auto;
+}
+
+
+.feature-project p {
+	font-family: "GillSansNova";
+	font-size: .9em;
+	font-weight: normal;
+	font-style: normal;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto 5em;
+}
+
+.credit{
+	padding-bottom: 0em;
+}
+
+.credit p {
+	font-family: "GillSansNova";
+	font-size: .75em;
+	font-weight: normal;
+	font-style: normal;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto 5em;
+}
+
+.creditcategory {
+	font-weight: bold;
+}
+
+section img,
+section video {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5em 0;
+}
+
+.ipadimage {
+	width: 50%;
+}
+
+#woodville_logo, #ideal_logo {
+	width: 40%;
+	margin-bottom: 2em;
+}
+
+.project_logo, #ccq_logo {
+	width: 50%;
+	padding-bottom: 10em;
+}
+
+.portrait {
+	width: 40%;
+}
+
+.web-images {
+	width: 50%
+}
+
+.web-images2 {
+	width: 60%
+}
+
+
+
+
+#prev_next {
+	margin: auto;
+	width: 70%;
+	padding-bottom: 2em;
+}
+
+#prev_next a{
+	font-family: "GillSansNova";
+	font-weight: bold;
+	font-style: bold;
+	color: #3b404f;
+	padding-top: 1em;
+	font-size: .65em;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.backtotop {
+	text-align: center;
+	margin: 2em auto 0em;
+}
+
+.backtotop img {
+	width: 3.5%;
+	min-width: 60px;
+	padding: 0;
+}
+
+.backtotop p {
+	font-family: "GillSansNova";
+	font-weight: bold;
+	color: #00bcda;
+	padding-top: .5em;
+	font-size: 1em;
+	display: inline-block; 
+	}
+
+
+
+
+@media screen and (min-width: 830px) {
+
+	body{
+		font-size: 16px;
+	} 
+
+	#descriptor {
+		float: left;
+		margin: 1.25em 0em 1.25em 11.5em;
+	}
+	
+	#logo {
+		float: none;
+		position: fixed;
+		z-index: 10;
+	}
+}

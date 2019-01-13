@@ -1,0 +1,94 @@
+/*Media Queries*/
+
+@media screen and (max-width: 1300px) {
+	
+	body{
+		font-size: 12px;
+	} 
+
+	#wrapper {
+		max-width: 1100px;
+	}
+}
+
+
+@media screen and (max-width: 830px) {
+	body{
+		font-size: 12px;
+	} 
+
+	label{
+        display:block;
+        text-align:right; 
+    }
+    nav {
+    	display: none;
+    	margin-right: 0;
+    	margin-top: 1.5em;
+    }
+
+    nav a {
+    	display: block;
+    	float: none;
+    	text-align: center;
+    }
+
+
+    #toggle:checked + nav{
+        display:block;
+    }
+
+	.project {
+		width: 45%;
+		margin: .5em auto;
+	}
+
+	#logo {
+		width: 4em;
+		float: left;
+	}
+
+	.feature-project h1, .feature-project h3, .feature-project p {
+		width: 90%;
+	}
+
+	.feature-project img, .feature-project video {
+		width: 90%;
+	}
+
+	.feature-project h1 {
+		margin-top: 1.5em;
+	}
+
+	#ccq_logo{
+		width: 75%;
+	}
+
+	#woodville_logo, #ideal_logo {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+.feature-project img, .feature-project video {
+	padding: 1.5em 0;
+}
+
+	.project {
+		display: block;
+		width: 90%;
+		margin: .5em auto;
+	}
+
+	.major_content p,
+	.major_content li {
+		width: 90%;
+	}
+
+	#newprojects, table {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
