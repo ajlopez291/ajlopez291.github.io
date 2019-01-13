@@ -3,7 +3,7 @@
 @media screen and (max-width: 1300px) {
 	
 	body{
-		font-size: 14px;
+		font-size: 16px;
 	} 
 
 	#wrapper {
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 830px) {
 	body{
-		font-size: 14px;
+		font-size: 16px;
 	} 
 
 	label{
@@ -31,12 +31,15 @@
     	display: block;
     	float: none;
     	text-align: center;
+    	font-size: 1.5em;
     }
 
 
     #toggle:checked + nav{
         display:block;
     }
+
+
 
 	.project {
 		width: 45%;
