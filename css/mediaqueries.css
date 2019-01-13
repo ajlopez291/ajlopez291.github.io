@@ -31,7 +31,7 @@
     	display: block;
     	float: none;
     	text-align: center;
-    	font-size: 1.5em;
+    	font-size: 1.25em;
     	padding: 1em;
     }
 
@@ -74,6 +74,10 @@
 }
 
 @media screen and (max-width: 500px) {
+
+.feature-project {
+	margin-top: 2em;
+}
 
 .feature-project img, .feature-project video {
 	padding: 1.5em 0;
